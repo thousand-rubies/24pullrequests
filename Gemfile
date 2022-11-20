@@ -60,7 +60,7 @@ end
 
 group :production do
   gem 'foreman'
-  gem 'dalli'
+  gem 'dalli', '>= 3.2.3'
   gem 'bugsnag'
   gem 'rack-google-analytics'
 end
