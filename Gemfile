@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '3.1.2'
 
-gem 'rails', '7.0.4'
+gem 'rails', '7.0.4.1'
 
 gem 'jquery-rails'
 gem 'pg', '~> 1.4.4'
@@ -26,7 +26,7 @@ gem 'sassc-rails'
 gem 'puma'
 gem 'rack-attack'
 gem 'bootsnap', require: false
-gem 'sprockets', '< 5.0.0'
+gem 'sprockets', '>= 4.1.1', '< 5.0.0'
 gem 'faraday', '2.6.0'
 gem "commonmarker", "~> 0.23.6"
 
