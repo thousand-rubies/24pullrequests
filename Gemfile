@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 ruby '3.1.2'
 
-gem 'rails', '7.0.4'
+gem 'rails', '7.0.4.3'
 
 gem 'jquery-rails'
 gem 'pg', '~> 1.4.4'
-gem 'omniauth', '1.9.2'
-gem 'omniauth-github'
+gem 'omniauth', '2.1.0'
+gem 'omniauth-github', '>= 2.0.0'
 gem 'omniauth-twitter'
 gem 'octokit'
 gem 'rabl'
@@ -26,9 +26,9 @@ gem 'sassc-rails'
 gem 'puma'
 gem 'rack-attack'
 gem 'bootsnap', require: false
-gem 'sprockets', '< 5.0.0'
+gem 'sprockets', '>= 4.2.0', '< 5.0.0'
 gem 'faraday', '2.6.0'
-gem "commonmarker", "~> 0.23.6"
+gem "commonmarker", "~> 0.23.7"
 
 group :development do
   gem 'spring'
@@ -60,7 +60,7 @@ end
 
 group :production do
   gem 'foreman'
-  gem 'dalli'
+  gem 'dalli', '>= 3.2.3'
   gem 'bugsnag'
   gem 'rack-google-analytics'
 end
