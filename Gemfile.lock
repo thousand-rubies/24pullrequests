@@ -70,7 +70,7 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-    addressable (2.8.1)
+    addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
     autoprefixer-rails (10.4.7.0)
@@ -281,18 +281,18 @@ GEM
       capybara (>= 2.1, < 4)
       cliver (~> 0.3.1)
       websocket-driver (>= 0.2.0)
-    public_suffix (5.0.0)
+    public_suffix (5.0.1)
     puma (5.6.5)
       nio4r (~> 2.0)
     rabl (0.16.1)
       activesupport (>= 2.3.14)
     racc (1.6.0)
-    rack (2.2.4)
+    rack (2.2.6.4)
     rack-attack (6.6.1)
       rack (>= 1.0, < 3)
-    rack-canonical-host (1.1.0)
+    rack-canonical-host (1.2.0)
       addressable (> 0, < 3)
-      rack (>= 1.0.0, < 3)
+      rack (>= 1, < 4)
     rack-google-analytics (1.2.0)
       actionpack
       activesupport
@@ -496,7 +496,7 @@ DEPENDENCIES
   puma
   rabl
   rack-attack
-  rack-canonical-host
+  rack-canonical-host (>= 1.2.0)
   rack-google-analytics
   rails (= 7.0.4)
   rails-controller-testing
@@ -524,4 +524,4 @@ RUBY VERSION
    ruby 3.1.2p20
 
 BUNDLED WITH
-   2.3.13
+   2.3.7
