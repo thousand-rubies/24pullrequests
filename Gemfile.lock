@@ -287,9 +287,9 @@ GEM
     rabl (0.16.1)
       activesupport (>= 2.3.14)
     racc (1.6.0)
-    rack (2.2.4)
-    rack-attack (6.6.1)
-      rack (>= 1.0, < 3)
+    rack (2.2.7)
+    rack-attack (6.7.0)
+      rack (>= 1.0, < 4)
     rack-canonical-host (1.1.0)
       addressable (> 0, < 3)
       rack (>= 1.0.0, < 3)
@@ -495,7 +495,7 @@ DEPENDENCIES
   poltergeist
   puma
   rabl
-  rack-attack
+  rack-attack (>= 6.7.0)
   rack-canonical-host
   rack-google-analytics
   rails (= 7.0.4)
@@ -524,4 +524,4 @@ RUBY VERSION
    ruby 3.1.2p20
 
 BUNDLED WITH
-   2.3.13
+   2.3.26
