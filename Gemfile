@@ -24,7 +24,7 @@ gem 'responders'
 gem 'typhoeus'
 gem 'sassc-rails'
 gem 'puma'
-gem 'rack-attack'
+gem 'rack-attack', '>= 6.7.0'
 gem 'bootsnap', require: false
 gem 'sprockets', '< 5.0.0'
 gem 'faraday', '2.6.0'
