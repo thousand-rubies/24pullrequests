@@ -34,7 +34,7 @@ group :development do
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'rubocop', require: false
-  gem 'web-console'
+  gem 'web-console', '>= 4.2.1'
 end
 
 group :development, :test, :cucumber do
