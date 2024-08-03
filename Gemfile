@@ -33,7 +33,7 @@ gem "commonmarker", "~> 0.23.6"
 group :development do
   gem 'spring'
   gem 'spring-commands-rspec'
-  gem 'rubocop', require: false
+  gem 'rubocop', '>= 1.37.0', require: false
   gem 'web-console'
 end
 
@@ -53,7 +53,7 @@ group :development, :test, :cucumber do
 
   gem 'database_cleaner'
   gem 'shoulda-matchers', '3.1.3'
-  gem 'webmock', require: false
+  gem 'webmock', '>= 3.19.0', require: false
   gem 'timecop'
   gem 'christmas_tree_formatter'
 end
