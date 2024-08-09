@@ -33,7 +33,7 @@ gem "commonmarker", "~> 0.23.6"
 group :development do
   gem 'spring'
   gem 'spring-commands-rspec'
-  gem 'rubocop', require: false
+  gem 'rubocop', '>= 1.37.0', require: false
   gem 'web-console'
 end
 
