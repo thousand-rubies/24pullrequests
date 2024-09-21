@@ -23,7 +23,7 @@ gem 'draper'
 gem 'responders'
 gem 'typhoeus'
 gem 'sassc-rails'
-gem 'puma'
+gem 'puma', '>= 5.6.9'
 gem 'rack-attack'
 gem 'bootsnap', require: false
 gem 'sprockets', '< 5.0.0'
