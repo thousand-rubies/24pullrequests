@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '3.1.2'
 
-gem 'rails', '7.0.4'
+gem 'rails', '7.0.8.5'
 
 gem 'jquery-rails'
 gem 'pg', '~> 1.4.4'
@@ -17,7 +17,7 @@ gem 'jquery-datetimepicker-rails'
 gem 'simple_form'
 gem 'coffee-rails'
 gem 'uglifier'
-gem 'octicons_helper', '9.6.0'
+gem 'octicons_helper', '13.0.0'
 gem 'rack-canonical-host'
 gem 'draper'
 gem 'responders'
