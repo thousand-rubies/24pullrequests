@@ -17,7 +17,7 @@ gem 'jquery-datetimepicker-rails'
 gem 'simple_form'
 gem 'coffee-rails'
 gem 'uglifier'
-gem 'octicons_helper', '9.6.0'
+gem 'octicons_helper', '14.2.0'
 gem 'rack-canonical-host'
 gem 'draper'
 gem 'responders'
@@ -38,7 +38,7 @@ group :development do
 end
 
 group :development, :test, :cucumber do
-  gem 'i18n-tasks'
+  gem 'i18n-tasks', '>= 1.0.14'
   gem 'rspec-rails'
   gem 'simplecov', require: false
   gem 'rails-controller-testing'
