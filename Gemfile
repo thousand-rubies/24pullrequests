@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '3.1.2'
 
-gem 'rails', '7.0.4'
+gem 'rails', '7.1.5.2'
 
 gem 'jquery-rails'
 gem 'pg', '~> 1.4.4'
@@ -17,7 +17,7 @@ gem 'jquery-datetimepicker-rails'
 gem 'simple_form'
 gem 'coffee-rails'
 gem 'uglifier'
-gem 'octicons_helper', '9.6.0'
+gem 'octicons_helper', '10.0.0'
 gem 'rack-canonical-host'
 gem 'draper'
 gem 'responders'
@@ -51,7 +51,7 @@ group :development, :test, :cucumber do
   gem 'brakeman'
   gem 'poltergeist'
 
-  gem 'database_cleaner'
+  gem 'database_cleaner', '>= 2.0.2'
   gem 'shoulda-matchers', '3.1.3'
   gem 'webmock', require: false
   gem 'timecop'
